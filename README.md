@@ -1,24 +1,9 @@
-# README
+# Task - Production Deploy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deploy to production using Heroku (optional) - production hosting service
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Todo
+- [ ] move sqlite3 gem to :development, :test group
+- [ ] create a production group and add gem 'pg'
+- [ ] bundle config set --local without production
